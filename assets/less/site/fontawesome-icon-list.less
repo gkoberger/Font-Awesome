@@ -1,0 +1,52 @@
+.fontawesome-icon-list {
+  margin-top: 22px;
+  .fa-hover {
+    a {
+      display: block;
+      color: @gray-darker;
+      line-height: 32px;
+      height: 32px;
+      padding-left: 10px;
+      border-radius: @border-radius-base;
+
+      .fa {
+        width: 32px;
+        font-size: 14px;
+        display: inline-block;
+        text-align: right;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        background-color: @fa-green;
+        color: @jumbotron-color;
+        text-decoration: none;
+        .fa {
+          font-size: 28px;
+          vertical-align: -6px;
+        }
+        .text-muted { color: mix(@jumbotron-color, @fa-green, 70%); }
+      }
+    }
+  }
+}
+
+.filter-parent {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 0 10px 0 14px;
+  border-radius: 3px;
+  #filter-by {
+    padding: 7px 0 7px 12px;
+    border: 0 none;
+    outline: 0 none;
+    width: 200px;
+  }
+  a {
+    text-decoration: none;
+    &.gone {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
