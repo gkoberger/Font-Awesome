@@ -7,7 +7,7 @@ icons:
       - martini
       - drink
       - bar
-      - alcohol 
+      - alcohol
     categories:
       - Web Application Icons
 
@@ -288,7 +288,7 @@ icons:
     id:         arrow-circle-o-down
     unicode:    f01a
     created:    1.0
-    filter: 
+    filter:
         - download
     categories:
       - Directional Icons
@@ -961,6 +961,9 @@ icons:
       - hide
       - block
       - stop
+    filter:
+      - block
+      - abort
     categories:
       - Web Application Icons
 
@@ -996,7 +999,7 @@ icons:
     id:         arrow-down
     unicode:    f063
     created:    1.0
-    filter: 
+    filter:
         - download
     categories:
       - Directional Icons
@@ -1709,7 +1712,7 @@ icons:
     id:         arrow-circle-down
     unicode:    f0ab
     created:    2.0
-    filter: 
+    filter:
         - download
     categories:
       - Directional Icons
@@ -2251,7 +2254,7 @@ icons:
     id:         cloud-download
     unicode:    f0ed
     created:    3.0
-    filter: 
+    filter:
       - import
     categories:
       - Web Application Icons
@@ -2260,7 +2263,7 @@ icons:
     id:         cloud-upload
     unicode:    f0ee
     created:    3.0
-    filter: 
+    filter:
       - import
     categories:
       - Web Application Icons
@@ -2270,7 +2273,7 @@ icons:
     id:         user-md
     unicode:    f0f0
     created:    2.0
-    filter: 
+    filter:
       - doctor
       - profile
       - medical
@@ -2289,7 +2292,7 @@ icons:
     id:         suitcase
     unicode:    f0f2
     created:    3.0
-    filter: 
+    filter:
       - trip
       - luggage
       - travel
